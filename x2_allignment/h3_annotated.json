@@ -1,0 +1,244 @@
+{
+  "answer_strength_rating": [
+    {
+      "metric_input": {
+        "user_input": "What are my options if I can not support myself on a WHM visa?",
+        "response": "You should only apply for this visa is you are unable to depart Australia,\nyour temporary visa expires in less than 28 days (or did not expire more than\n28 days ago) and you have no other visa options available to you."
+      },
+      "metric_output": 2,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "What are my options if I can not support myself on a WHM visa?",
+            "response": "You should only apply for this visa is you are unable to depart Australia,\nyour temporary visa expires in less than 28 days (or did not expire more than\n28 days ago) and you have no other visa options available to you.",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response lacks detail and does not directly address the user's question about options if they cannot support themselves on a WHM visa. It focuses more on the conditions for applying for the visa rather than providing alternatives or support options available to the user.",
+            "score": 2
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": false
+    },
+    {
+      "metric_input": {
+        "user_input": "I was a working Holiday Maker but lost my job; what should I do?",
+        "response": "You should only apply for this visa is you are unable to depart Australia,\nyour temporary visa expires in less than 28 days (or did not expire more than\n28 days ago) and you have no other visa options available to you."
+      },
+      "metric_output": 2,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "I was a working Holiday Maker but lost my job; what should I do?",
+            "response": "You should only apply for this visa is you are unable to depart Australia,\nyour temporary visa expires in less than 28 days (or did not expire more than\n28 days ago) and you have no other visa options available to you.",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response lacks detail and clarity regarding the user's situation. It does not fully address the user's question about what to do after losing a job as a working Holiday Maker. The advice given is somewhat relevant but does not provide comprehensive guidance or options for the user.",
+            "score": 2
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": false
+    },
+    {
+      "metric_input": {
+        "user_input": "Is it practical to expect children to practice social distancing in childcare settings?",
+        "response": "If your child is sick, they must not go to school or childcare. You must keep\nthem at home and away from others.\nTo reduce the spread of viruses or germs in schools students and staff should\ncontinue to practise good hygiene.\nThe Australian Health Protection Principal Committee (AHPPC) has issued\nupdated advice on reducing the potential risk of COVID-19 transmission in\nschools.\nThe AHPPC also issued a statement on risk management for re-opening boarding\nschools and school-based residential colleges.\nFor more information on school\noperations, visit the\nDepartment of Education, Skills and Employment website."
+      },
+      "metric_output": 2,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "Is it practical to expect children to practice social distancing in childcare settings?",
+            "response": "If your child is sick, they must not go to school or childcare. You must keep\nthem at home and away from others.\nTo reduce the spread of viruses or germs in schools students and staff should\ncontinue to practise good hygiene.\nThe Australian Health Protection Principal Committee (AHPPC) has issued\nupdated advice on reducing the potential risk of COVID-19 transmission in\nschools.\nThe AHPPC also issued a statement on risk management for re-opening boarding\nschools and school-based residential colleges.\nFor more information on school\noperations, visit the\nDepartment of Education, Skills and Employment website.",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response provides some relevant information about health guidelines for children in childcare settings, but it does not directly address the practicality of expecting children to practice social distancing. It lacks detail on how social distancing can be implemented in childcare and does not consider the challenges involved. Overall, it could be improved by focusing more on the specific question asked.",
+            "score": 2
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": false
+    },
+    {
+      "metric_input": {
+        "user_input": "Do I have to continue making gym membership payments if my gym has closed due to the coronavirus outbreak?",
+        "response": "\nMembership ‘freeze’ or ‘holding’ fees may be charged by gyms when customers elect to pause their membership, if this is permitted by the terms and conditions.\nGiven many memberships are being paused due to the government restrictions preventing gyms from operating, rather than customers requesting a pause, the ACCC expects that gyms will not charge membership ‘freeze’ or ‘holding’ fees.\nThe ACCC also expects that gyms will refund any such holding fees incorrectly charged since the government restrictions came into effect.\n"
+      },
+      "metric_output": 4,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "Do I have to continue making gym membership payments if my gym has closed due to the coronavirus outbreak?",
+            "response": "\nMembership ‘freeze’ or ‘holding’ fees may be charged by gyms when customers elect to pause their membership, if this is permitted by the terms and conditions.\nGiven many memberships are being paused due to the government restrictions preventing gyms from operating, rather than customers requesting a pause, the ACCC expects that gyms will not charge membership ‘freeze’ or ‘holding’ fees.\nThe ACCC also expects that gyms will refund any such holding fees incorrectly charged since the government restrictions came into effect.\n",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response is excellent and highly relevant to the user's question. It clearly explains the situation regarding gym membership payments during the coronavirus outbreak, referencing the ACCC's expectations about fees and refunds. The information is detailed and provides a comprehensive understanding of the issue.",
+            "score": 4
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": true
+    },
+    {
+      "metric_input": {
+        "user_input": "Can I keep on working while waiting to see if the application for my next WHM visa is accepted or not?",
+        "response": "In response to the current COVID-19 pandemic, the Australian Government has\nannounced temporary measures to assist temporary visa holders currently in\nAustralia, including Seasonal Worker Programme and Pacific Labour Scheme\nparticipants, who are unable to currently return to their home country, to\nextend their stay in Australia, and enable flexibility in changing approved\nemployers where required.\nUnder these temporary measures, current approved employers may wish to employ\nSeasonal Worker Programme or Pacific Labour Scheme participants who have\nfinished employment with their current approved employer, but who are unable\nto return to their home country.\nApproved employers, like any employer, may also wish to employ Temporary\nActivity (subclass 408) Australian Government Endorsed Event (AGEE) stream\nvisa holders\n\nThis visa will have a nil visa application charge (VAC) for the COVID-19 pandemic event. \nEmployer sponsorship arrangements similar to the Seasonal Worker Programme will also apply to the subclass 408 visa.\n\nThese temporary measures are not intended to prevent the recruitment of\nAustralians to undertake this work. Before seeking access to seasonal workers\nunder the Seasonal Worker Programme, approved employers must first try to\nrecruit Australians.\nWhere Australian workers are unavailable, employers can also seek seasonal\nlabour through the Working Holiday Maker program. Working Holiday Makers who\nare working in critical sectors (i.e. agriculture, food processing, health\ncare, aged care, disability care or child care) will be exempt from the six\nmonth work limitation with one employer and eligible for a Temporary Activity\n(subclass 408) visa in the Australian Government Endorsed Event (AGEE) stream.\nEmployers are still required to abide by all relevant Australian workplace\nlaws. Overseas workers have the same rights under Australian workplace law as\nall other employees.\nThese temporary measures will be in place for a timeframe that allows relevant\ncritical industries to bridge the gap between their immediate needs and the\ntime to recruit, train and on-board Australians. The Department of Home\nAffairs is working with the Department of Education, Skills and Employment to\nensure Australians are prioritised for future job opportunities."
+      },
+      "metric_output": 2,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "Can I keep on working while waiting to see if the application for my next WHM visa is accepted or not?",
+            "response": "In response to the current COVID-19 pandemic, the Australian Government has\nannounced temporary measures to assist temporary visa holders currently in\nAustralia, including Seasonal Worker Programme and Pacific Labour Scheme\nparticipants, who are unable to currently return to their home country, to\nextend their stay in Australia, and enable flexibility in changing approved\nemployers where required.\nUnder these temporary measures, current approved employers may wish to employ\nSeasonal Worker Programme or Pacific Labour Scheme participants who have\nfinished employment with their current approved employer, but who are unable\nto return to their home country.\nApproved employers, like any employer, may also wish to employ Temporary\nActivity (subclass 408) Australian Government Endorsed Event (AGEE) stream\nvisa holders\n\nThis visa will have a nil visa application charge (VAC) for the COVID-19 pandemic event. \nEmployer sponsorship arrangements similar to the Seasonal Worker Programme will also apply to the subclass 408 visa.\n\nThese temporary measures are not intended to prevent the recruitment of\nAustralians to undertake this work. Before seeking access to seasonal workers\nunder the Seasonal Worker Programme, approved employers must first try to\nrecruit Australians.\nWhere Australian workers are unavailable, employers can also seek seasonal\nlabour through the Working Holiday Maker program. Working Holiday Makers who\nare working in critical sectors (i.e. agriculture, food processing, health\ncare, aged care, disability care or child care) will be exempt from the six\nmonth work limitation with one employer and eligible for a Temporary Activity\n(subclass 408) visa in the Australian Government Endorsed Event (AGEE) stream.\nEmployers are still required to abide by all relevant Australian workplace\nlaws. Overseas workers have the same rights under Australian workplace law as\nall other employees.\nThese temporary measures will be in place for a timeframe that allows relevant\ncritical industries to bridge the gap between their immediate needs and the\ntime to recruit, train and on-board Australians. The Department of Home\nAffairs is working with the Department of Education, Skills and Employment to\nensure Australians are prioritised for future job opportunities.",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response provides some relevant information about temporary measures for visa holders in Australia, but it does not directly address the user's question about whether they can continue working while waiting for their WHM visa application. The answer lacks clarity and specificity regarding the user's situation, which could lead to confusion.",
+            "score": 2
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": false
+    },
+    {
+      "metric_input": {
+        "user_input": "Can I continue to work while I am waiting for a decision for my application for my WHM visa?",
+        "response": "The COVID-19 Pandemic event visa can only be granted to people in Australia."
+      },
+      "metric_output": 1,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "Can I continue to work while I am waiting for a decision for my application for my WHM visa?",
+            "response": "The COVID-19 Pandemic event visa can only be granted to people in Australia.",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response is irrelevant to the user's question about working while waiting for a WHM visa decision. It does not address the user's inquiry and provides misleading information about a different visa type.",
+            "score": 1
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": true
+    },
+    {
+      "metric_input": {
+        "user_input": "Can I get a refund for the tickets I bought because I no longer want to attend an event for COVID-19 concerns?",
+        "response": "\nIf you no longer wish to attend an event due to concerns about COVID-19, this may be treated as a 'change of mind'. You should contact the event organiser to see if you are entitled to a remedy such as full or partial refund, credit note or voucher.\nIf you have a health condition that means you are at higher risk, you should contact the event organiser to see if they will offer you a refund or a voucher for a later date.\nGiven the exceptional circumstances, the ACCC encourages all businesses to treat consumers fairly, including by offering refunds as a goodwill gesture where appropriate.\n"
+      },
+      "metric_output": 4,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "Can I get a refund for the tickets I bought because I no longer want to attend an event for COVID-19 concerns?",
+            "response": "\nIf you no longer wish to attend an event due to concerns about COVID-19, this may be treated as a 'change of mind'. You should contact the event organiser to see if you are entitled to a remedy such as full or partial refund, credit note or voucher.\nIf you have a health condition that means you are at higher risk, you should contact the event organiser to see if they will offer you a refund or a voucher for a later date.\nGiven the exceptional circumstances, the ACCC encourages all businesses to treat consumers fairly, including by offering refunds as a goodwill gesture where appropriate.\n",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response is excellent and highly relevant. It clearly addresses the user's question about obtaining a refund due to COVID-19 concerns, providing detailed guidance on contacting the event organizer and mentioning the ACCC's stance on consumer rights. The information is comprehensive and well-structured.",
+            "score": 4
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": true
+    },
+    {
+      "metric_input": {
+        "user_input": "Where and how will the Economic Support Payment be paid?",
+        "response": "If you are in receipt of an eligible income support payment and you are an\nIncome Management participant, the full $750 will be placed into your Income\nManagement account. This is the same for other lump-sum payments. This will\napply for both rounds of payments."
+      },
+      "metric_output": 3,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "Where and how will the Economic Support Payment be paid?",
+            "response": "If you are in receipt of an eligible income support payment and you are an\nIncome Management participant, the full $750 will be placed into your Income\nManagement account. This is the same for other lump-sum payments. This will\napply for both rounds of payments.",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response is mostly relevant and provides some detail about the Economic Support Payment, specifically for Income Management participants. However, it could be more comprehensive by including information about other payment methods for those not on Income Management and clarifying the context of the payments.",
+            "score": 3
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": false
+    },
+    {
+      "metric_input": {
+        "user_input": "what ways can I apply for a temporal activity with a temporal visa",
+        "response": "Under recently announced measures, New Zealand citizens and permanent\nresidents can access up to $10,000 of their Australian superannuation tax-free\nin 2019-20 and a further $10,000 in 2020-21.\nIf you are unable to support yourself, are not eligible for any of the above\npayments, and unable to find any employment, you should consider returning to\nNew Zealand."
+      },
+      "metric_output": 1,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "what ways can I apply for a temporal activity with a temporal visa",
+            "response": "Under recently announced measures, New Zealand citizens and permanent\nresidents can access up to $10,000 of their Australian superannuation tax-free\nin 2019-20 and a further $10,000 in 2020-21.\nIf you are unable to support yourself, are not eligible for any of the above\npayments, and unable to find any employment, you should consider returning to\nNew Zealand.",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response is irrelevant to the user's question about applying for a temporal activity with a temporal visa. It discusses financial measures for New Zealand citizens and does not address the topic of temporal visas or how to apply for activities related to them.",
+            "score": 1
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": true
+    },
+    {
+      "metric_input": {
+        "user_input": "If I am in Australia on temporary visa and have been offered a job, can I apply for the Australian Government Endorsed Event stream visa?",
+        "response": "Temporary visa holders, including bridging visa holders can apply for the\nCOVID-19 Pandemic event visa if they meet all of the eligibility criteria.\nBridging visa holders who have a s.48 bar and/or who have not held a\nsubstantive temporary visa in the 28 days prior to application will not be\nable to apply."
+      },
+      "metric_output": 3,
+      "prompts": {
+        "single_turn_prompt": {
+          "prompt_input": {
+            "user_input": "If I am in Australia on temporary visa and have been offered a job, can I apply for the Australian Government Endorsed Event stream visa?",
+            "response": "Temporary visa holders, including bridging visa holders can apply for the\nCOVID-19 Pandemic event visa if they meet all of the eligibility criteria.\nBridging visa holders who have a s.48 bar and/or who have not held a\nsubstantive temporary visa in the 28 days prior to application will not be\nable to apply.",
+            "retrieved_contexts": null,
+            "reference_contexts": null,
+            "reference": null
+          },
+          "prompt_output": {
+            "feedback": "The response is acceptable and mostly relevant to the user's question about applying for the Australian Government Endorsed Event stream visa. However, it could be more comprehensive by explicitly stating whether the user can apply for the specific visa mentioned, as well as providing more details about the eligibility criteria and any potential limitations for temporary visa holders.",
+            "score": 3
+          },
+          "edited_output": null
+        }
+      },
+      "is_accepted": false
+    }
+  ]
+}
